@@ -2,9 +2,11 @@
 
 A simple and responsive To-Do List application built with **Vite JS**. Easily manage your tasks with an intuitive UI and minimal setup.
 
+![App Screenshot](./src/assets/todo-list.jpeg)
+
 ## 🚀 Demo
 
-[Live Demo](#) – *Add your deployment link here if hosted*
+[Live Demo](#) – https://khushbu-todo-list.netlify.app/
 
 ## 📌 Features
 
