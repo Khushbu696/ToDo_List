@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background: #121212;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+.input-wrapper,
+.filter-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+input, button {
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+input {
+  background: #1e1e1e;
+  color: #fff;
+  box-shadow: inset 4px 4px 10px #0e0e0e, inset -4px -4px 10px #1c1c1c;
+}
+
+button {
+  background: #1e1e1e;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 4px 4px 10px #0e0e0e, -4px -4px 10px #1c1c1c;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  max-width: 300px;
+  border-radius: 15px;
+  background: #1e1e1e;
+  box-shadow: 4px 4px 10px #0e0e0e, -4px -4px 10px #1c1c1c;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+/******************************************************/
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.done-btn {
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 3px 3px 6px #0e0e0e, -3px -3px 6px #1c1c1c;
+}
+
+.delete-btn {
+  background-color: #dc3545; /* Red */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 3px 3px 6px #0e0e0e, -3px -3px 6px #1c1c1c;
+}
+
+.done-btn:hover,
+.delete-btn:hover {
+  transform: scale(1.05);
+}
